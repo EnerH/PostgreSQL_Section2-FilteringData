@@ -1,0 +1,5 @@
+SELECT film_id, title
+FROM film f 
+ORDER BY title ASC 
+OFFSET 10 ROWS
+FETCH FIRST 5 ROW ONLY;
